@@ -12,3 +12,6 @@ A cinematic, emotional birthday surprise website built with HTML, CSS, and JavaS
 
 ## Run locally
 Open index.html in a browser, or deploy the folder to Vercel as a static site.
+
+## GitHub
+This project is hosted on GitHub and is ready for static deployment. The repository excludes large media files like `videos/memories.mp4` so it stays within GitHub limits.

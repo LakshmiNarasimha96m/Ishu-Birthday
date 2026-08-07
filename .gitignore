@@ -1,0 +1,4 @@
+# Ignore large media and local artifacts
+videos/memories.mp4
+.DS_Store
+node_modules/
