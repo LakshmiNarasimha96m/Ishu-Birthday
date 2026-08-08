@@ -21,6 +21,54 @@ const favoritePasswordInput = document.getElementById('favoritePasswordInput');
 const favoritePasswordSubmit = document.getElementById('favoritePasswordSubmit');
 const favoritePasswordMessage = document.getElementById('favoritePasswordMessage');
 const finalLetter = document.getElementById('finalLetter');
+const favoritePhotoPaths = [
+  'images/fav_photos/IMG-20260405-WA0113.jpg',
+  'images/fav_photos/IMG-20260405-WA0126.jpg',
+  'images/fav_photos/IMG-20260520-WA0020.jpg',
+  'images/fav_photos/IMG-20260520-WA0027.jpg',
+  'images/fav_photos/IMG-20260520-WA0028.jpg',
+  'images/fav_photos/IMG-20260520-WA0033.jpg',
+  'images/fav_photos/IMG-20260520-WA0034.jpg',
+  'images/fav_photos/IMG-20260520-WA0035.jpg',
+  'images/fav_photos/IMG-20260520-WA0042.jpg',
+  'images/fav_photos/IMG-20260520-WA0048.jpg',
+  'images/fav_photos/IMG-20260520-WA0051.jpg',
+  'images/fav_photos/IMG-20260520-WA0052.jpg',
+  'images/fav_photos/IMG-20260522-WA0016.jpg',
+  'images/fav_photos/IMG-20260611-WA0023.jpg',
+  'images/fav_photos/IMG-20260719-WA0005.jpg',
+  'images/fav_photos/IMG-20260803-WA0038.jpg',
+  'images/fav_photos/IMG-20260807-WA0011.jpg',
+  'images/fav_photos/IMG-20260807-WA0012.jpg',
+  'images/fav_photos/IMG-20260807-WA0013.jpg',
+  'images/fav_photos/IMG-20260807-WA0016.jpg',
+  'images/fav_photos/IMG20260403130618.jpg',
+  'images/fav_photos/IMG20260403130631.jpg',
+  'images/fav_photos/IMG20260403130632.jpg',
+  'images/fav_photos/IMG20260403130715.jpg',
+  'images/fav_photos/IMG20260403151945.jpg',
+  'images/fav_photos/IMG20260405092249_BURST019.jpg',
+  'images/fav_photos/IMG20260405092256-copy-0.jpg',
+  'images/fav_photos/IMG20260405092256.jpg',
+  'images/fav_photos/IMG20260406091717.jpg',
+  'images/fav_photos/IMG20260610103305.jpg',
+  'images/fav_photos/IMG20260610103307.jpg',
+  'images/fav_photos/IMG20260610125212.jpg',
+  'images/fav_photos/IMG20260610163401.jpg',
+  'images/fav_photos/IMG20260610171743.jpg',
+  'images/fav_photos/IMG20260610171755.jpg',
+  'images/fav_photos/IMG20260610185259.jpg',
+  'images/fav_photos/IMG20260610185337.jpg',
+  'images/fav_photos/IMG20260610185341.jpg',
+  'images/fav_photos/IMG20260610185345.jpg',
+  'images/fav_photos/IMG20260610185513.jpg',
+  'images/fav_photos/IMG20260610185822.jpg',
+  'images/fav_photos/IMG_20260405_093127860.jpg',
+  'images/fav_photos/IMG_20260405_190838804.jpg',
+  'images/fav_photos/IMG_20260803_100725.jpg',
+  'images/fav_photos/Screenshot.jpg',
+  'images/fav_photos/Snapchat-712138475.jpg'
+];
 const letterText = document.getElementById('letterText');
 const startJourney = document.getElementById('startJourney');
 const memoryVideo = document.getElementById('memoryVideo');
@@ -61,6 +109,7 @@ function init() {
   setInterval(createConfettiBurst, 2400);
   setInterval(createFireworkBurst, 4200);
   startTyping();
+  populateFavoritePhotosGrid();
   attachEvents();
   setupRevealAnimations();
   bgMusic.volume = 0.35;
@@ -185,6 +234,20 @@ function createFireworkBurst() {
     floatingHearts.appendChild(dot);
     setTimeout(() => dot.remove(), 1400);
   }
+}
+
+function populateFavoritePhotosGrid() {
+  if (!favoritePhotosGrid) return;
+
+  favoritePhotosGrid.innerHTML = '';
+  favoritePhotoPaths.forEach((src) => {
+    const img = document.createElement('img');
+    img.className = 'gallery-item';
+    img.src = src;
+    img.alt = 'Favorite photo';
+    img.loading = 'eager';
+    favoritePhotosGrid.appendChild(img);
+  });
 }
 
 function attachEvents() {
