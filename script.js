@@ -213,12 +213,19 @@ function populateFavoritePhotosGrid() {
     favoritePhotosGrid.appendChild(img);
   });
 
-  if (favoritePhotosGrid.classList.contains('locked')) {
-    favoritePhotosGrid.classList.remove('locked');
-  }
+  favoritePhotosGrid.classList.add('locked');
 
   if (favoriteLockOverlay) {
-    favoriteLockOverlay.classList.add('hidden');
+    favoriteLockOverlay.classList.remove('hidden');
+  }
+
+  if (favoritePasswordInput) {
+    favoritePasswordInput.value = '';
+  }
+
+  if (favoritePasswordMessage) {
+    favoritePasswordMessage.textContent = '';
+    favoritePasswordMessage.className = 'password-message';
   }
 }
 
@@ -434,6 +441,9 @@ function checkFavoritePassword() {
     }
     if (favoritePhotosGrid) {
       favoritePhotosGrid.classList.remove('locked');
+    }
+    if (favoritePasswordInput) {
+      favoritePasswordInput.value = '';
     }
   } else {
     favoritePasswordMessage.textContent = 'Wrong password. Try again.';
