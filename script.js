@@ -26,7 +26,12 @@ const favoritePhotoPaths = [
   'images/fav_photos/IMG-20260405-WA0126.jpg',
   'images/fav_photos/IMG-20260520-WA0020.jpg',
   'images/fav_photos/IMG-20260520-WA0027.jpg',
-  'images/fav_photos/IMG-20260520-WA0028.jpg'
+  'images/fav_photos/IMG-20260520-WA0028.jpg',
+  'images/fav_photos/IMG-20260520-WA0033.jpg',
+  'images/fav_photos/IMG-20260520-WA0034.jpg',
+  'images/fav_photos/IMG-20260520-WA0035.jpg',
+  'images/fav_photos/IMG-20260520-WA0042.jpg',
+  'images/fav_photos/IMG-20260520-WA0048.jpg'
 ];
 const letterText = document.getElementById('letterText');
 const startJourney = document.getElementById('startJourney');
@@ -199,6 +204,22 @@ function populateFavoritePhotosGrid() {
   if (!favoritePhotosGrid) return;
 
   favoritePhotosGrid.innerHTML = '';
+  favoritePhotoPaths.forEach((src) => {
+    const img = document.createElement('img');
+    img.className = 'gallery-item';
+    img.src = src;
+    img.alt = 'Favorite photo';
+    img.loading = 'eager';
+    favoritePhotosGrid.appendChild(img);
+  });
+
+  if (favoritePhotosGrid.classList.contains('locked')) {
+    favoritePhotosGrid.classList.remove('locked');
+  }
+
+  if (favoriteLockOverlay) {
+    favoriteLockOverlay.classList.add('hidden');
+  }
 }
 
 function attachEvents() {
