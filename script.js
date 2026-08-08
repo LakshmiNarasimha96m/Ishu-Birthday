@@ -42,7 +42,11 @@ const favoritePhotoPaths = [
   'images/fav_photos/IMG20260403130618.jpg',
   'images/fav_photos/IMG20260403151945.jpg',
   'images/fav_photos/IMG20260610171743.jpg',
-  'images/fav_photos/IMG20260610185513.jpg'
+  'images/fav_photos/IMG20260610185513.jpg',
+  'images/fav_photos/Snapchat-712138475.jpg',
+  'images/fav_photos/IMG20260406091717.jpg',
+  'images/fav_photos/IMG-20260719-WA0005.jpg',
+  'images/fav_photos/IMG20260610125212.jpg'
 ];
 const letterText = document.getElementById('letterText');
 const startJourney = document.getElementById('startJourney');
