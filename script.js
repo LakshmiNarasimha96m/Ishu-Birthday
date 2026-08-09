@@ -57,26 +57,37 @@ const typingLines = [
   'You are the reason love feels soft and true.'
 ];
 
-const letterContent = `My dearest little sister,
+const letterContent = `My dear ChittiThalli 🤍,
 
-There are moments in life that change us forever, and you have been one of those beautiful, shining moments for me. From the first days we shared laughter and tiny fights, to every year that followed, you have filled my life with warmth, comfort, and joy. You are not just my sister; you are the heartbeat of our home, the smile that brightens the darkest day, and the gentle reminder that love can be soft, steady, and endless.
+Many more happy returns of the day ra bangaru thalli! 🎂🤍 Eppudu happy ga undali sare na. Nuvvu eppudu navvuthu, peaceful ga, healthy ga undali ani manaspoorthiga korukuntunna.
 
-I still remember the small things with crystal clarity. The way we laughed until our stomachs hurt, the silly arguments that seemed huge at the time, the small secrets we kept, the little games we made up, and the way even ordinary days felt magical because you were there. We grew up together, and somewhere in that growing, you became one of the strongest sources of happiness in my life. Even when life felt busy, heavy, or uncertain, your presence was like a light I could always rely on.
+Nuvvu naaku first time parichayam ayyav ga, appudu nunchi ippati varaku nenu ninnu na own sister lane chusukuntunna. Nijam cheppalante, nenu ammayilatho ekkuva matladanu. Andhuke starting lo nitho matladali ante konchem bhayam vesi ekkuva matladalekapoyanu. Kaani ippudu nuvvu naaku chala close aipoyav ra Chellamma. 🤍 Nuvvu na life lo vachinanduku nenu chala lucky ga feel avuthunna. Nuvvu na life lo oka special person ga aipoyav, and I’m really proud of you. Ninnu na life lo kalavadam naaku chala happy ga anipisthundi. 🫂🤍
 
-You have a way of making people feel safe. You carry kindness in a way that feels natural, almost effortless, and it touches everyone around you. You are brave in quiet ways, gentle in difficult moments, and strong even when you don't realize it. I have seen your strength, your innocence, your compassion, and your beautiful heart. You are full of dreams, full of warmth, full of love, and I hope you always remember how extraordinary you truly are.
+Nuvvu na life lo nenu entha important ani cheppavo, anna life lo kuda nuvvu anthe important. Nuvvu edaina adigithe, na valla ayithe “vadhu” ani cheppalenu. Endukante nuvvu naaku just sister kaadhu, na own sister la aipoyav. 🫂 Naku andhari kanna nuvve important ra, andhuke neeku value kuda ekkuva istha. Sare na. 🤍
 
-I have always been proud of you, not because of what you do, but because of who you are. The way you care for people, the way you bring light into a room, the way you keep going with so much grace and tenderness. These are the things that make you special. They are the qualities that make you unforgettable. And every time I think about you, I feel grateful that I get to call you my sister.
+Kaani konni vishayalu nenu cheppali ra. Nenu em cheppina ninnu hurt cheyyadaniki kaadhu. Future lo neeku elanti problems raakudadhu ani chepthunna. Ippudu nuvvu konni things lite ga feel avvachu, “Anna enduku ila chepthunnadu?” ani anukovachu. Kaani future lo neeke ardham avuthundi, anna enduku cheppado ani. Nee meeda care undi kabatte chepthunna ra ChittiThalli. 🤍
 
-I know life will bring many seasons, and I know there will be days that feel difficult, but I want you to remember this: no matter what happens, I will always stand beside you. I will always protect you. I will always be there for you. I will always be your safe place and your biggest cheerleader. Even when the world feels loud, I hope you remember that you are deeply loved, deeply respected, and deeply cherished.
+Friends tho ekkuva close ga undaku ra. Andharu manam anukunnattu undaru, konthamandi fake ga kuda untaru. Evarini aina namme mundu konchem alochinchu. Nee heart chala manchidi, andhuke easy ga evarini nammi hurt avvakunda konchem strong ga undali. Nee happiness and peace eppudu important.
 
-As you grow older, I hope you keep your beautiful heart. I hope you keep believing in joy, in kindness, in love, and in yourself. I hope you keep dreaming big and laughing often. I hope you always know that you deserve every happiness life can offer. Every peaceful moment, every beautiful memory, every kind smile, every little victory, and every great dream — all of it matters, and I hope you receive all of it and more.
+Amma ni kuda chala baaga chusuko ra. Amma kosam nuvvu eppudu strong ga undali. Amma happiness kuda nee responsibility lo oka part ani gurthu pettuko. 🤍
 
-Happy Birthday My Little Princess ❤️
+Nuvvu eppudu navvuthu unte anna kuda chala happy. Nee smile alane eppudu undali. 🥹 Kopam konchem thagginchuko ra Chellamma 😄. Chinna chinna vishayalaki ekkuva feel avvakunda, happy ga life ni enjoy cheyyi.
 
-I love you forever. My life is better because you exist. And no matter how many birthdays come and go, you will always be the most precious girl in my life.
+Inko important thing cheppali… anna ki kuda konchem possessiveness untundhi ra Chellamma 😄🤍. Adhi kuda ninnu ekkuva care chesthanu kabatte. Nuvvu naaku chala important kabatti konni times ekkuva care chesthunna ani anipinchachu. Adhi control cheyyadaniki kaadhu, just nee meeda unna affection and care. 🫂
+
+Nuvvu life lo em achieve cheyyali anukuntunnavo avi anni achieve cheyyali. Nee dreams anni nijam avvali. Ekkadiki vellina, entha busy aina, mana bond matram eppudu change avvakudadhu. Enni fights vachina, enni misunderstandings vachina, nuvvu na sister ane place matram eppudu permanent. 🤍
+
+Nuvvu eppudaina sad ga unna, edaina problem unna, evaritho cheppukovalo teliyakapoyina “Anna unnadu kada” ani gurthu pettuko. Andharu ninnu vadhu anukunna sare, ee Anna matram eppudu nee side lo untadu. 🫂❤️ Na valla ayinantha varaku eppudu nee kosam untanu. Nenu konni times strict ga matladina, adhi kuda nee meeda unna care valle. Inkka chala cheppalani vundhi kani anna ki ni eyes lo water chudadam istam ledhu andhuke stop chesthunna ChittiThalli 🤍.
+
+Once again, Many Many More Happy Returns of the Day ra naa ChittiThalli! 🎂🤍
+
+Eppudu happy ga undu, healthy ga undu, navvuthu undu. Nee face lo aa smile eppudu alane undali. ❤️
+
+Love you so much ra naa Chellamma 🤍🫂
+Eppudu gurthu pettuko — situation ela unna, nee Anna eppudu nee side lo untadu. ❤️
 
 With all my love,
-Your Loving Brother`;
+— Nee Annayya 🤍;
 
 function init() {
   createStars();
