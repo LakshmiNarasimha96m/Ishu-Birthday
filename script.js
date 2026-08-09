@@ -138,7 +138,7 @@ function createStars() {
       const alpha = 0.4 + 0.6 * Math.sin(Date.now() / 900 + i);
       ctx.beginPath();
       ctx.arc(star.x, star.y, star.r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(255,255,255,${alpha * star.a})`;
+      ctx.fillStyle = "rgba(255,255,255,0.5)";
       ctx.fill();
     });
     requestAnimationFrame(draw);
