@@ -607,7 +607,7 @@ canvas#starfield, canvas#fireflyLayer {
   border-radius: 999px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
-.reason-clouds{
+/* .reason-clouds{
     position:relative;
     display:flex;
     flex-wrap:wrap;
@@ -618,7 +618,7 @@ canvas#starfield, canvas#fireflyLayer {
 .reason-bubble{
     position:relative;
     inset:auto;
-}
+} */
 .reason-bubble:nth-child(1) { top: 10%; left: 15%; }
 .reason-bubble:nth-child(2) { top: 16%; right: 15%; }
 .reason-bubble:nth-child(3) { top: 40%; left: 8%; }
