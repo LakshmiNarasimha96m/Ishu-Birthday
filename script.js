@@ -89,7 +89,7 @@ Love you so much ra naa Chellamma 🤍🫂
 Eppudu gurthu pettuko — situation ela unna, nee Anna eppudu nee side lo untadu. ❤️
 
 With all my love,
-— Nee Annayya 🤍;
+— Nee Annayya 🤍';
 
 function init() {
   createStars();
