@@ -33,9 +33,11 @@ const favoritePhotoPaths = [
   'images/fav_photos/IMG-20260520-WA0042.jpg',
   'images/fav_photos/IMG-20260520-WA0048.jpg',
   'images/fav_photos/IMG-20260520-WA0051.jpg',
+  'images/fav_photos/IMG-20260423-WA0015.jpg', //new
   'images/fav_photos/IMG_20260405_093127860.jpg',
   'images/fav_photos/IMG-20260803-WA0038.jpg',
   'images/fav_photos/IMG-20260807-WA0011.jpg',
+  'images/fav_photos/IMG_20260405_092601643.jpg', //new
   'images/fav_photos/IMG-20260807-WA0012.jpg',
   'images/fav_photos/IMG-20260807-WA0013.jpg',
   'images/fav_photos/IMG-20260807-WA0016.jpg',
@@ -44,7 +46,7 @@ const favoritePhotoPaths = [
   'images/fav_photos/IMG20260610171743.jpg',
   'images/fav_photos/IMG20260610185513.jpg',
   'images/fav_photos/IMG-20260719-WA0005.jpg',
-  'images/fav_photos/1772979314036.jpg',
+  'images/fav_photos/1772979314036.jpg'
 ];
 const letterText = document.getElementById('letterText');
 const startJourney = document.getElementById('startJourney');
