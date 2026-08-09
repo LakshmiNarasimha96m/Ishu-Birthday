@@ -577,12 +577,20 @@ function toggleMusic() {
   }
 }
 
-window.addEventListener('resize', () => {
-  const canvases = [starfield, fireflyLayer];
-  canvases.forEach((canvas) => {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-  });
+window.addEventListener('load', () => {
+
+    const popup = document.getElementById('desktopPopup');
+    const btn = document.getElementById('continueBtn');
+
+    if(btn){
+        btn.onclick = () => {
+            popup.style.display = "none";
+            init();
+        };
+    }else{
+        init();
+    }
+
 });
 
 window.addEventListener('load', init);
