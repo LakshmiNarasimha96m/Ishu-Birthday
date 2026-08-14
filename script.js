@@ -25,27 +25,39 @@ const favoritePhotoPaths = [
   'images/fav_photos/IMG-20260405-WA0113.jpg',
   'images/fav_photos/IMG-20260405-WA0126.jpg',
   'images/fav_photos/IMG-20260520-WA0020.jpg',
+  'images/fav_photos/IMG-20260814-WA0001.jpg',//new
   'images/fav_photos/IMG-20260520-WA0027.jpg',
   'images/fav_photos/IMG-20260520-WA0028.jpg',
+  'images/fav_photos/IMG-20260814-WA0012.jpg',//new
+  'images/fav_photos/IMG-20260520-WA0042.jpg',
+  'images/fav_photos/IMG-20260814-WA0015.jpg',//new
   'images/fav_photos/IMG-20260520-WA0033.jpg',
+  'images/fav_photos/IMG-20260814-WA0017.jpg',//new
   'images/fav_photos/IMG-20260520-WA0034.jpg',
   'images/fav_photos/IMG-20260520-WA0035.jpg',
-  'images/fav_photos/IMG-20260520-WA0042.jpg',
+  'images/fav_photos/IMG-20260814-WA0009.jpg',//new
   'images/fav_photos/IMG-20260520-WA0048.jpg',
   'images/fav_photos/IMG-20260520-WA0051.jpg',
-  'images/fav_photos/IMG-20260423-WA0015.jpg', //new
+  'images/fav_photos/IMG-20260423-WA0015.jpg',
   'images/fav_photos/IMG_20260405_093127860.jpg',
   'images/fav_photos/IMG-20260803-WA0038.jpg',
+  'images/fav_photos/IMG-20260814-WA0007.jpg',//new
   'images/fav_photos/IMG-20260807-WA0011.jpg',
-  'images/fav_photos/IMG_20260405_092601643.jpg', //new
+  'images/fav_photos/IMG_20260405_092601643.jpg',
   'images/fav_photos/IMG-20260807-WA0012.jpg',
+  'images/fav_photos/IMG-20260814-WA0010.jpg',//new
   'images/fav_photos/IMG-20260807-WA0013.jpg',
   'images/fav_photos/IMG-20260807-WA0016.jpg',
   'images/fav_photos/IMG20260403130618.jpg',
   'images/fav_photos/IMG20260403151945.jpg',
-  'images/fav_photos/IMG20260610171743.jpg',
+  'images/fav_photos/IMG-20260814-WA0004.jpg',//new
+  'images/fav_photos/IMG-20260814-WA0005.jpg',//new
   'images/fav_photos/IMG20260610185513.jpg',
+  'images/fav_photos/IMG-20260814-WA0006.jpg',//new
+  'images/fav_photos/IMG20260610171743.jpg',
+  'images/fav_photos/IMG-20260814-WA0011.jpg',//new
   'images/fav_photos/IMG-20260719-WA0005.jpg',
+  'images/fav_photos/IMG-20260814-WA0018.jpg',//new
   'images/fav_photos/1772979314036.jpg'
 ];
 const letterText = document.getElementById('letterText');
